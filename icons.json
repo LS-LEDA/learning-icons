@@ -1,0 +1,119 @@
+{
+    "info": [
+        {
+            "category": "Analytical processing",
+            "icon":[
+                {
+                    "name": "Descriptive analysis",
+                    "description": "Descriptive analysis helps describe, show or summarize data points in a constructive way such that patterns might emerge that fulfill every condition of the data.",
+                    "url": "icons/analisis_descriptivo.png"
+                },
+                {
+                    "name": "Diagnostic analysis",
+                    "description": "Diagnostic analysis determines the causes of trends and correlations between variables.",
+                    "url": "icons/analisis_diagnostico.png"
+                },
+                {
+                    "name": "Predictive analysis",
+                    "description": "Predictive analysis analyzes current and historical data to make predictions about future or otherwise unknown events.",
+                    "url": "icons/analisis_predictiu.png"
+                },
+                {
+                    "name": "Prescriptive analysis",
+                    "description": "Prescriptive analysis is a form of advanced analytics which examines data to answer the question 'What should be done?' or 'What can we do to make something happen?'",
+                    "url": "icons/analisis_prescriptiu.png"
+                }
+            ]
+        },
+        {
+            "category": "Local cache",
+            "icon":[
+                {
+                    "name": "Use of Cookies",
+                    "description": "We use cookies to improve your navigation experience.",
+                    "url": "icons/cookies.png"
+                },
+                {
+                    "name": "Use of cache techniques",
+                    "description": "Caching allows you to efficiently reuse previously retrieved or processed data.",
+                    "url": "icons/cache.png"
+                }
+            ]
+        },
+        {
+            "category": "Data collection",
+            "icon":[
+                {
+                    "name": "Personal data gathering",
+                    "description": "Students' personal data is collected to improve their experience using the webpage.",
+                    "url": "icons/recoleccio_dades_personals.png"
+                },
+                {
+                    "name": "General data gathering",
+                    "description": "",
+                    "url": "icons/recoleccio_dades_no_personals.png"
+                },
+                {
+                    "name": "Metadata gathering",
+                    "description": "Metadata is data that describes and identifies other data. For example, 'Zip code', 'Day and time' or 'Location' are metadata that can identify a specific person.",
+                    "url": "icons/metadata.png"
+                }
+            ]
+        },
+        {
+            "category": "Data transfer",
+            "icon":[
+                {
+                    "name": "Third-party data transfer",
+                    "description": "There is an external data transfer when the data collected is shared with companies not directly related to the educational institution.",
+                    "url": "icons/transfer_extern.png"
+                },
+                {
+                    "name": "Intern data transfer",
+                    "description": "There is an internal data transfer when the data collected is shared within the same educational institution, between people and departments, and the data can go outside of it (both local and external servers).",
+                    "url": "icons/transfer_internal.png"
+                }
+            ]
+        },
+        {
+            "category": "Data storage",
+            "icon":[
+                {
+                    "name": "Not anonymized data",
+                    "description": "The stored data is not anonymized, it means  that the data can be connected to the person providing it.",
+                    "url": "icons/no_anonimizados.png"
+                },
+                {
+                    "name": "Anonymized data",
+                    "description": "The stored data is anonymized, it means  that the data cannot be connected to the person providing it.",
+                    "url": "icons/anonimizados.png"
+                },
+                {
+                    "name": "Pseudoanonymized data",
+                    "description": "The stored data is pseudoanonymized, it means  that the data can be connected to the person providing it through indirect or additional information.",
+                    "url": "icons/pseudoanonimizados.png"
+                },
+                {
+                    "name": "Encrypted data",
+                    "description": "The stored data i sencrypted, that means that infomation is transformed into another form, or code, so that only people with access to a secret key or password can read it.",
+                    "url": "icons/encriptados.png"
+                },
+                {
+                    "name": "Data stored during X time",
+                    "description": "The data is stored during a certain amount of time, after this period has ended the data is removed.",
+                    "url": "icons/emmagatzematge_anys.png"
+                }
+            ]
+        },
+        {
+            "category": "Data processing",
+            "icon":[
+                {
+                    "name": "Data process during X time",
+                    "description": "The data can be processed during a certain amount of time after being stored.",
+                    "url": "icons/tractament_dades.png"
+                }
+            ]
+        }
+    ]
+}
