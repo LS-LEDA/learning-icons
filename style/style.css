@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@300&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+
+
+.subdivision {
+  background-color: brown;
+  
+}
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -6,7 +34,7 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: grey; /* Set a background color */
+    background-color: rgb(199, 199, 199); /* Set a background color */
     color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -15,5 +43,6 @@
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: rgb(110, 110, 110); /* Add a dark-grey background on hover */
   }
+
