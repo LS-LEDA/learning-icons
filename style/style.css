@@ -1,29 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@300&display=swap');
 
+body {
+  margin: 0;
+  background-color: #ecf0f1;
+}
+
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 36px;
+  margin: 2%;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 25px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 p{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 19px;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 32px
 }
 
-
+.image {
+  margin-left: 2%;
+  margin-right: 2%;
+}
 
 .subdivision {
-  background-color: brown;
-  
+  margin: 2%;
+  margin-bottom: 4%;
 }
 
 #myBtn {
@@ -42,7 +65,116 @@ p{
     font-size: 18px; /* Increase font size */
   }
   
-  #myBtn:hover {
-    background-color: rgb(110, 110, 110); /* Add a dark-grey background on hover */
-  }
+#myBtn:hover {
+  background-color: rgb(110, 110, 110); /* Add a dark-grey background on hover */
+}
 
+section{
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: #3498db;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+.titol{
+  font-size: 42px;
+  color: #fff;
+  line-height: 100px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+nav{
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background-color: rgba(0,0,0,.1);
+}
+
+nav a{
+  display: block;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+nav a:hover{
+  box-shadow: 0 0 0 1px #fff;
+  border-radius: 2px;
+}
+
+#LedaSection {
+  margin-top: 200px;
+}
+
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin-top: 2em;
+  height: 70px;
+  background-color: #999;
+}
+
+.copyright {
+  width: 50%;
+  float: left;
+  
+}
+.social {
+    width: 50%;
+    float: right;
+}
+
+#xarxes {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold; 
+}
+#hola:hover {
+  background-color: #222;
+}
+
+.support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 40%;
+}
+
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.tweet {
+  background-color: #3DACDD;
+  font-size: 1.2em;
+  width: 20%;
+}
