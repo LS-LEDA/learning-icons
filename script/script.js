@@ -46,6 +46,8 @@ function readJSON(){
     var icons = JSON.parse(request.responseText);
     
 
+
+    //TODO: Editar element i sub-element perquè la imatge i la descripció quedi com toca
     for (let i = 0; i < icons.info.length; i++){
         document.body.innerHTML += '<div id = "' + icons.info[i].category +  '">'
         var division = document.getElementById(icons.info[i].category);
@@ -53,11 +55,16 @@ function readJSON(){
 
         division.innerHTML += '<h2>' + icons.info[i].category + '</h2>';
         for(let y = 0; y < icons.info[i].icon.length; y++){
-            division.innerHTML += '<div id = "' + icons.info[i].icon[y].name +  '" class = "subdivision">'
-            var subdivision = document.getElementById(icons.info[i].icon[y].name);
-            subdivision.innerHTML += '<h3 class = "name">' + icons.info[i].icon[y].name + '</h3>';
-            subdivision.innerHTML += '<p class = "description">' + icons.info[i].icon[y].description + '</p>';
-            subdivision.innerHTML +=  '<img class = "image" src="' + icons.info[i].icon[y].url + '" alt="Girl in a jacket" width="100" height="100">'; 
+          division.innerHTML += '<div class = "element" id = "' + icons.info[i].icon[y].name +  '">';
+            
+          var subdivision = document.getElementById(icons.info[i].icon[y].name);
+  
+          subdivision.innerHTML +=  '<img class = "image" src="' + icons.info[i].icon[y].url + '" alt="Girl in a jacket" width="250" height="250">'; 
+          subdivision.innerHTML += '<div class = "sub-elemnt" id = "sub' + icons.info[i].icon[y].name + '"></div>';
+          
+          var desc = document.getElementById("sub" + icons.info[i].icon[y].name);
+          desc.innerHTML += '<h2 class = "name">' + icons.info[i].icon[y].name + '</h2>';
+          desc.innerHTML += '<p class = "description">' + icons.info[i].icon[y].description + '</p>';         
         }
     }
 }
