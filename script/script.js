@@ -64,7 +64,8 @@ function readJSON(){
           
           var desc = document.getElementById("sub" + icons.info[i].icon[y].name);
           desc.innerHTML += '<h2 class = "name">' + icons.info[i].icon[y].name + '</h2>';
-          desc.innerHTML += '<p class = "description">' + icons.info[i].icon[y].description + '</p>';         
+          desc.innerHTML += '<p class = "description">' + icons.info[i].icon[y].description + '</p>';   
+          division.innerHTML += '</div>'      
         }
     }
 }
