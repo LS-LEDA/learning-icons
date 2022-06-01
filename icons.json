@@ -6,22 +6,22 @@
                 {
                     "name": "Descriptive analysis",
                     "description": "Descriptive analysis helps describe, show or summarize data points in a constructive way such that patterns might emerge that fulfill every condition of the data.",
-                    "url": "icons/analisis_descriptivo.png"
+                    "url": "icons/analisis_descriptivo.svg"
                 },
                 {
                     "name": "Diagnostic analysis",
                     "description": "Diagnostic analysis determines the causes of trends and correlations between variables.",
-                    "url": "icons/analisis_diagnostico.png"
+                    "url": "icons/analisis_diagnostico.svg"
                 },
                 {
                     "name": "Predictive analysis",
                     "description": "Predictive analysis analyzes current and historical data to make predictions about future or otherwise unknown events.",
-                    "url": "icons/analisis_predictiu.png"
+                    "url": "icons/analisis_predictiu.svg"
                 },
                 {
                     "name": "Prescriptive analysis",
                     "description": "Prescriptive analysis is a form of advanced analytics which examines data to answer the question 'What should be done?' or 'What can we do to make something happen?'",
-                    "url": "icons/analisis_prescriptiu.png"
+                    "url": "icons/analisis_prescriptiu.svg"
                 }
             ]
         },
@@ -31,12 +31,12 @@
                 {
                     "name": "Use of Cookies",
                     "description": "We use cookies to improve your navigation experience.",
-                    "url": "icons/cookies.png"
+                    "url": "icons/cookies.svg"
                 },
                 {
                     "name": "Use of cache techniques",
                     "description": "Caching allows you to efficiently reuse previously retrieved or processed data.",
-                    "url": "icons/cache.png"
+                    "url": "icons/cache.svg"
                 }
             ]
         },
@@ -46,17 +46,17 @@
                 {
                     "name": "Personal data gathering",
                     "description": "Students' personal data is collected to improve their experience using the webpage.",
-                    "url": "icons/recoleccio_dades_personals.png"
+                    "url": "icons/recoleccio_dades_personals.svg"
                 },
                 {
                     "name": "General data gathering",
                     "description": "",
-                    "url": "icons/recoleccio_dades_no_personals.png"
+                    "url": "icons/recoleccio_dades_no_personals.svg"
                 },
                 {
                     "name": "Metadata gathering",
                     "description": "Metadata is data that describes and identifies other data. For example, 'Zip code', 'Day and time' or 'Location' are metadata that can identify a specific person.",
-                    "url": "icons/metadata.png"
+                    "url": "icons/metadata.svg"
                 }
             ]
         },
@@ -66,12 +66,12 @@
                 {
                     "name": "Third-party data transfer",
                     "description": "There is an external data transfer when the data collected is shared with companies not directly related to the educational institution.",
-                    "url": "icons/transfer_extern.png"
+                    "url": "icons/transfer_extern.svg"
                 },
                 {
                     "name": "Intern data transfer",
                     "description": "There is an internal data transfer when the data collected is shared within the same educational institution, between people and departments, and the data can go outside of it (both local and external servers).",
-                    "url": "icons/transfer_internal.png"
+                    "url": "icons/transfer_internal.svg"
                 }
             ]
         },
@@ -81,27 +81,27 @@
                 {
                     "name": "Not anonymized data",
                     "description": "The stored data is not anonymized, it means  that the data can be connected to the person providing it.",
-                    "url": "icons/no_anonimizados.png"
+                    "url": "icons/no_anonimizados.svg"
                 },
                 {
                     "name": "Anonymized data",
                     "description": "The stored data is anonymized, it means  that the data cannot be connected to the person providing it.",
-                    "url": "icons/anonimizados.png"
+                    "url": "icons/anonimizados.svg"
                 },
                 {
                     "name": "Pseudoanonymized data",
                     "description": "The stored data is pseudoanonymized, it means  that the data can be connected to the person providing it through indirect or additional information.",
-                    "url": "icons/pseudoanonimizados.png"
+                    "url": "icons/pseudoanonimizados.svg"
                 },
                 {
                     "name": "Encrypted data",
                     "description": "The stored data i sencrypted, that means that infomation is transformed into another form, or code, so that only people with access to a secret key or password can read it.",
-                    "url": "icons/encriptados.png"
+                    "url": "icons/encriptados.svg"
                 },
                 {
                     "name": "Data stored during X time",
                     "description": "The data is stored during a certain amount of time, after this period has ended the data is removed.",
-                    "url": "icons/emmagatzematge_anys.png"
+                    "url": "icons/emmagatzematge_anys.svg"
                 }
             ]
         },
@@ -111,7 +111,7 @@
                 {
                     "name": "Data process during X time",
                     "description": "The data can be processed during a certain amount of time after being stored.",
-                    "url": "icons/tractament_dades.png"
+                    "url": "icons/tractament_dades.svg"
                 }
             ]
         }

@@ -44,12 +44,11 @@ function readJSON(){
     request.open("GET", "../../icons.json", false);
     request.send(null)
     var icons = JSON.parse(request.responseText);
-    
-
+    var section = document.getElementById("Icons");
 
     //TODO: Editar element i sub-element perquè la imatge i la descripció quedi com toca
     for (let i = 0; i < icons.info.length; i++){
-        document.body.innerHTML += '<div id = "' + icons.info[i].category +  '">'
+        section.innerHTML += '<div id = "' + icons.info[i].category +  '">'
         var division = document.getElementById(icons.info[i].category);
 
 
@@ -60,7 +59,7 @@ function readJSON(){
           var subdivision = document.getElementById(icons.info[i].icon[y].name);
   
           subdivision.innerHTML +=  '<img class = "image" src="' + icons.info[i].icon[y].url + '" alt="Girl in a jacket" width="250" height="250">'; 
-          subdivision.innerHTML += '<div class = "sub-elemnt" id = "sub' + icons.info[i].icon[y].name + '"></div>';
+          subdivision.innerHTML += '<div class = "sub-element" id = "sub' + icons.info[i].icon[y].name + '"></div>';
           
           var desc = document.getElementById("sub" + icons.info[i].icon[y].name);
           desc.innerHTML += '<h2 class = "name">' + icons.info[i].icon[y].name + '</h2>';
