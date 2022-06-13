@@ -66,6 +66,7 @@ function readJSON(){
           desc.innerHTML += '<p class = "description">' + icons.info[i].icon[y].description + '</p>';   
           division.innerHTML += '</div>'      
         }
+        division.innerHTML += '</div>'  
     }
 }
 
