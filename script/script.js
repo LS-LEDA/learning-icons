@@ -41,8 +41,8 @@ function goIconsSection() {
 
 function readJSON(){
     var request = new XMLHttpRequest();
-    request.open("GET", "../../icons.json", false);
-    request.send(null)
+    request.open("GET", "./icons.json", false);
+    request.send(null);
     var icons = JSON.parse(request.responseText);
     var section = document.getElementById("Icons");
 
